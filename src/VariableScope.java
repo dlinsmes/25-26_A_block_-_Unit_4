@@ -1,7 +1,7 @@
 public class VariableScope {
 
     public static void main(String [] args) {
-        int [] array  = {4, 7, 1, 3, 2};
+        int [] array = {4, 7, 1, 3, 2};
         sort(array);
         for (int n: array)
             System.out.print(n + " ");
